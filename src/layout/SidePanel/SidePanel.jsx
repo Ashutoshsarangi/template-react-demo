@@ -14,7 +14,7 @@ const SidePanel = () => {
   return (
     <div
       id="sidePanel"
-      className={`shadow h-full bg-slate-800 lg:block min-w-[270px] text-slate-200 border-slate-100 xl:min-w-[360px] ${
+      className={`shadow z-50 h-full bg-slate-800 lg:block min-w-[270px] text-slate-200 border-slate-100 xl:min-w-[360px] ${
         showPanel ? "block fixed top-0 left-0" : "hidden"
       }`}
     >
