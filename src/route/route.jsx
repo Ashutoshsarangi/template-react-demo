@@ -9,7 +9,7 @@ import App from "../App";
 
 export const router = createBrowserRouter([
   {
-    path: "/template-react-demo",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
