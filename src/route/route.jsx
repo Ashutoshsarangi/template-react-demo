@@ -8,7 +8,9 @@ import Datatable from "../pages/DataTable/Datatable";
 import Projects from "../pages/Projects/Projects";
 import Mobile from "../pages/Mobile/Mobile";
 import Web from "../pages/Web/Web";
-import About from "../pages/About/About";
+import Offer from "../pages/Offer/Offer";
+import FeaturePage from "../pages/FeaturePage/FeaturePage";
+import Setting from "../pages/Setting/Setting";
 import App from "../App";
 
 export const router = createBrowserRouter([
@@ -39,8 +41,12 @@ export const router = createBrowserRouter([
         ],
       },
       {
-        path: "about",
-        element: <About />,
+        path: "offer",
+        element: <Offer />,
+      },
+      {
+        path: "feature",
+        element: <FeaturePage />,
       },
       {
         path: "price",
@@ -49,6 +55,10 @@ export const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "setting",
+        element: <Setting />,
       },
     ],
   },

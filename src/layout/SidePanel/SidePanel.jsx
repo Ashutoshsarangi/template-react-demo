@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import useSidePanel from "../../context/sidepanel.context";
 import "./SidePanel.css";
 
 const SidePanel = () => {
   const { showPanel, setShowPanel } = useSidePanel();
+  const { t } = useTranslation();
   const handleMenuClick = (e) => {
-    console.log(e);
     if (e.view.innerWidth <= 1024) {
       setShowPanel(!showPanel);
     }
@@ -34,28 +35,37 @@ const SidePanel = () => {
           onClick={(e) => handleMenuClick(e)}
         >
           <li>
+            <Link to="/dashboard">{t("dashboard")}</Link>
+          </li>
+          <li>
             <details open>
               <summary>
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects">{t("projects")}</Link>
               </summary>
               <ul className="border-l">
                 <li>
-                  <Link to="/projects/web">Web Applications</Link>
+                  <Link to="/projects/web">{t("web_applications")}</Link>
                 </li>
                 <li>
-                  <Link to="/projects/mobile">Mobile Applications</Link>
+                  <Link to="/projects/mobile">{t("mobile_applications")}</Link>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <Link to="/about">About Me</Link>
+            <Link to="/offer">{t("we_offer")}</Link>
           </li>
           <li>
-            <Link to="/price">Price</Link>
+            <Link to="/feature">{t("frequently_asked_questions")}</Link>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/price">{t("price")}</Link>
+          </li>
+          <li>
+            <Link to="/contact">{t("contact_us")}</Link>
+          </li>
+          <li>
+            <Link to="/setting">{t("setting")}</Link>
           </li>
         </ul>
       </div>
