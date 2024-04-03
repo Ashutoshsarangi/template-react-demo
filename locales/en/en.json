@@ -1,0 +1,154 @@
+{
+  "services": "Our Services",
+  "get_an_estimation": "Get an estimation",
+  "application_development": "application development",
+  "mobile": "mobile",
+  "web_app_development": "Web $t(application_development)",
+  "android_mobile_app_development": "Android $t(mobile) $t(application_development)",
+  "figma_design": "Figma design",
+  "graphics_design_rest": "Graphics design / Baner / Logo / Business card",
+  "ios_app_development": "IOS Mobile Application Development $t(coming_soon)",
+  "backend_node_development": "Back-End Server Development $t(coming_soon)",
+  "hire_as_developer": "Hire As a Developer (Part Time)",
+  "hire_as_ui_designer": "Hire as UI Designer (Figma) (Part Time)",
+  "hire_as_graphics_designer": "Hire as Graphics Designer (Part Time)",
+  "hire_as_Tutor": "Hire For Education (React/ HTML/ CSS/ Javascript/ React Native)(Part Time)",
+  "view_more": "View more",
+  "web_Applications": "Web apps",
+  "web_Applications_full": "Web application",
+  "view_web_Applications": "Web apps",
+  "android_Applications": "Android apps",
+  "android_Applications_full": "Android application",
+  "view_android_Applications": "Mobile apps",
+  "features": "Features",
+  "all_features": "All Features",
+  "single_page_application": "Single page appliaction",
+  "responsive_design": "Responsive design",
+  "progressive_web_apps": "Progressive web apps",
+  "image_optimization": "Image optimization",
+  "price": "Price",
+  "faq_full": "Frequently asked questions",
+  "starter": "Starter",
+  "dns": "Domain name Registration Ex. www.companyName.com (If Available)",
+  "companylogo_package": "Company Logo <b>Client Need to Provide</b> & Contact Details",
+  "company_logo_we_provide": "Company Logo <b>We will Provide If not there</b> & Contact Details",
+  "six_month_support": "Free Support for 6 Months (Text and Image Changes)",
+  "support_one_half_year": "Free Support for 1.5 Year (Text and Image Changes)",
+  "support_one_year": "Free Support for 1 Year (Text and Image Changes)",
+  "support_two_year": "Free Support for 2 Year (Text and Image Changes)",
+  "support_three_year": "Free Support for 3 Year (Text and Image Changes)",
+  "language_available_2": "Data Shown in <b>English and Greek</b>",
+  "language_available_3": "Data Shown in <b>Any 3 Laguages , English will be default</b>",
+  "language_available_5": "Data Shown in <b>Any 5 Laguages , English will be default</b>",
+  "coming_soon": "Coming soon ...",
+  "also_included": "Also Includes:",
+  "static_pages_4": "4 Static Pages",
+  "static_pages_6": "6 Static Pages",
+  "static_pages_8": "8 Static Pages",
+  "company_description": "Company Description",
+  "add_photos_10": "Add Photos Upto 10",
+  "add_photos_15": "Add Photos Upto 15",
+  "add_photos_20": "Add Photos Upto 20",
+  "add_photos_25": "Add Photos Upto 25",
+  "link_all_social_media": "Link to all Social Media websites",
+  "small_video_can_add": "Small Video Clip can be added",
+  "application_bootup": "Your Application should boot Up with in <b> 5 Secs</b>",
+  "handle_global_error_page": "Handling 404 Page",
+  "scrum_method": "Scrum Principle",
+  "theme_change_enterprice": "<b>Handle Light and Dark Theme</b>",
+  "accessibility_package": "Assessability Will be added (Will Share the Report)",
+  "pwa": "Progressive Web Application (PWA)",
+  "pwa_package": "PWA (Progressive Web Application) (Load Data Offline) (1 Page)",
+  "version_control": "Version Control",
+  "cicd_package": "<b>CICD</b> (Automatic Build and ready to use with in hrs)",
+  "solid_foundation_package": "<b>Solid Foundation</b> Scale Up very fast",
+  "feel_free_reach_out_us": "Feel free to reach out to me for any questions",
+  "dashboard": "Dashboard",
+  "projects": "Projects",
+  "web_applications": "Web Applications",
+  "mobile_applications": "Mobile Applications",
+  "we_offer": "We Offer",
+  "frequently_asked_questions": "Frequently Asked Questions (FAQ)",
+  "contact_us": "Contact Us",
+  "setting": "Setting",
+  "faq-1": {
+    "title": "React + Vite",
+    "description": "React is a JavaScript library for building user interfaces, and Vite is a fast build tool for modern web development that enhances the development experience with React."
+  },
+  "faq-2": {
+    "title": "Tailwind",
+    "description": "Tailwind CSS is a utility-first CSS framework that provides a set of pre-designed classes to rapidly build custom user interfaces."
+  },
+  "faq-3": {
+    "title": "Responsive Design",
+    "description": "Design approach ensuring web applications adapt and display properly on various devices and screen sizes."
+  },
+  "faq-4": {
+    "title": "Dark & Light Theme",
+    "description": "Option for users to switch between dark and light color schemes in the application interface."
+  },
+  "faq-5": {
+    "title": "Version Control",
+    "description": "Managing and tracking changes to code using tools like Git to collaborate with others and maintain code history."
+  },
+  "faq-6": {
+    "title": "Automatic Launch of your application after changes",
+    "description": "Automatically deploying application updates to production servers after code changes."
+  },
+  "faq-7": {
+    "title": "Cloud Based Backend (SAAS)",
+    "description": "Using cloud platforms like AppWrite or Google Firebase to host backend services for scalability and reliability."
+  },
+  "faq-8": {
+    "title": "Latest Technologies, React and React Native",
+    "description": "React and React Native are popular frameworks for building web and mobile applications, respectively, known for their efficiency and performance."
+  },
+  "faq-9": {
+    "title": "Image Optimization",
+    "description": "Process of reducing image file size without sacrificing quality to improve website loading speed."
+  },
+  "faq-10": {
+    "title": "Localization",
+    "description": "Ability to support multiple languages in the application to cater to a diverse user base."
+  },
+  "faq-11": {
+    "title": "Scrum Principle",
+    "description": "Agile methodology emphasizing iterative development, collaboration, and adaptability to deliver software efficiently."
+  },
+  "faq-12": {
+    "title": "After Service Period for Maintenance",
+    "description": "Offering maintenance services post-development for a fee of 50 Euros per year."
+  },
+  "faq-13": {
+    "title": "Scalable Foundation Project",
+    "description": "Building a solid foundation for the project to support future growth and scalability seamlessly."
+  },
+  "faq-14": {
+    "title": "Single Page Application",
+    "description": "Web application that dynamically updates content without reloading the entire page for smoother user experience."
+  },
+  "faq-15": {
+    "title": "Figma Designs",
+    "description": "Providing visual designs created in Figma to give an idea of the application's appearance and layout."
+  },
+  "faq-16": {
+    "title": "User Education",
+    "description": "Providing tutorials or documentation to guide users on how to use the application effectively."
+  },
+  "faq-17": {
+    "title": "Theme Change",
+    "description": "Allowing users to switch between different color themes, such as dark and light modes."
+  },
+  "faq-18": {
+    "title": "Handle 404 Page",
+    "description": "Designing and implementing a custom 404 error page to guide users when they encounter broken links or pages."
+  },
+  "faq-19": {
+    "title": "Progressive Web Application (PWA)",
+    "description": "Web application that utilizes modern web capabilities to provide a native app-like experience, including offline functionality and push notifications."
+  },
+  "faq-20": {
+    "title": "Free Demo",
+    "description": "Offering a trial version or demonstration of the existing application without charge."
+  }
+}

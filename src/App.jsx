@@ -27,7 +27,7 @@ function App() {
         <Header />
         <div className="h-[calc(100vh-110px)] overflow-hidden shadow flex justify-center">
           <SidePanel />
-          <div className="container mt-3 mb-3 mr-2 p-2 ml-2 overflow-scroll">
+          <div className="container p-2 m-2 dark:bg-slate-800 border-0 overflow-scroll">
             <Outlet />
           </div>
         </div>
