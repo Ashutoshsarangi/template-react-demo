@@ -1,23 +1,14 @@
 import { useTranslation } from "react-i18next";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
 import AppWidget from "../../components/AppWidget/AppWidget";
-
-const ourServices = [
-  { title: "web_app_development", id: 1111 },
-  { title: "android_mobile_app_development", id: 1112 },
-  { title: "figma_design", id: 1113 },
-  { title: "graphics_design_rest", id: 1114 },
-];
-
-const ourFeatures = [
-  { title: "single_page_application", id: 11111 },
-  { title: "responsive_design", id: 11112 },
-  { title: "progressive_web_apps", id: 11113 },
-  { title: "image_optimization", id: 11114 },
-];
+import { useProgressiveImg } from "../../hooks/useProgressiveImg";
+import performanceLow from "../../assets/performance/performance_low.png";
+import performanceHigh from "../../assets/performance/performance_high.png";
+import { ourFeatures, ourServices } from "./Dashboard.constants";
 
 const Dashboard = ({ showPanel, setShowPanel }) => {
   const { t } = useTranslation();
+  const [src, { blur }] = useProgressiveImg(performanceLow, performanceHigh);
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
       <ServiceCard
@@ -26,6 +17,17 @@ const Dashboard = ({ showPanel, setShowPanel }) => {
         title="services"
         viewMoreLink="/offer"
       />
+      <div className="bg-white p-3 shadow m-1 mb-3 flex justify-between flex-col dark:bg-slate-700">
+        <img
+          src={src}
+          alt="This is related to performance of this website"
+          style={{
+            filter: blur ? "blur(20px)" : "none",
+            transition: blur ? "none" : "filter 0.3s ease-out",
+          }}
+        />
+      </div>
+
       <AppWidget
         t={t}
         title="web_Applications"
