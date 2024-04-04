@@ -37,7 +37,7 @@ const Pricing = (props) => {
                 packages={webStarterPackages}
                 extraClasses="bg-orange-300"
                 title="Starter"
-                price="249"
+                price="199"
               />
               <WebPackages
                 id="web-standard"
