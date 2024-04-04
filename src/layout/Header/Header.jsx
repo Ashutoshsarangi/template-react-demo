@@ -56,7 +56,7 @@ const Header = (props) => {
               data-value="el"
               onClick={(e) => i18n.changeLanguage(e.target.dataset.value)}
             >
-              🇨🇾
+              🇬🇷
             </span>
           </div>
           <span className="flex items-center relative">
