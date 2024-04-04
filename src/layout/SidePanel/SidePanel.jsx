@@ -65,7 +65,7 @@ const SidePanel = () => {
             <Link to="/contact">{t("contact_us")}</Link>
           </li>
           <li>
-            <Link to="/setting">{t("setting")}</Link>
+            <Link to="/terms-and-condition">{t("terms_and_condition")}</Link>
           </li>
         </ul>
       </div>

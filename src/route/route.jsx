@@ -10,7 +10,7 @@ import Mobile from "../pages/Mobile/Mobile";
 import Web from "../pages/Web/Web";
 import Offer from "../pages/Offer/Offer";
 import FeaturePage from "../pages/FeaturePage/FeaturePage";
-import Setting from "../pages/Setting/Setting";
+import TermsAndCondition from "../pages/TermsAndCondition/TermsAndCondition";
 import App from "../App";
 
 export const router = createBrowserRouter([
@@ -57,8 +57,8 @@ export const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "setting",
-        element: <Setting />,
+        path: "terms-and-condition",
+        element: <TermsAndCondition />,
       },
     ],
   },

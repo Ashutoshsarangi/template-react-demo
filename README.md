@@ -48,3 +48,7 @@ You can use Our below services
 10. Hire as Graphics Designer (Part Time)
 
 ---
+
+1. I hoisted the project in firebase
+2. I purchage domain name from the Cloudflare
+   https://dash.cloudflare.com/0c0f0aa09cbc5bcd48bd4003b7ebecd1/domains

@@ -150,5 +150,17 @@
   "faq-20": {
     "title": "Free Demo",
     "description": "Offering a trial version or demonstration of the existing application without charge."
+  },
+  "terms_and_condition": "Terms and conditions",
+  "terms_and_conditions": {
+    "t_c_1": "Once Design is ready, the client should not change the requirement.",
+    "t_c_2": "50% cash payment is due at the start of the project, with the remaining 50% due upon project completion.",
+    "t_c_3": "Scope of Work: The scope of work outlined in the initial agreement cannot be altered without mutual written consent from both parties.",
+    "t_c_4": "Communication: Both parties agree to maintain open and regular communication throughout the project.",
+    "t_c_5": "Intellectual Property Rights: All designs, concepts, and materials developed during the project are the intellectual property of the designer, unless otherwise agreed upon in writing.",
+    "t_c_6": "Confidentiality: Both parties agree to keep all project-related information confidential.",
+    "t_c_7": "Deliverables: The Developer will provide the client with agreed-upon deliverables according to the project schedule.",
+    "t_c_8": "Revisions: The agreement includes a specified number of revisions or rounds of changes.",
+    "t_c_9": "Termination: Either party reserves the right to terminate the agreement in writing if the other party breaches any of its terms."
   }
 }
