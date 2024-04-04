@@ -42,11 +42,9 @@ const Header = (props) => {
             </span>
           </label>
           <span className="flex items-center relative">
-            <img
-              tabIndex={0}
-              className="h-[50px] w-[50px] rounded-full shadow"
-              src="https://images.pexels.com/photos/19175643/pexels-photo-19175643/free-photo-of-woman-in-coat-standing-by-wall-in-tunnel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
+            <div className="h-[50px] w-[50px] rounded-full shadow bg-blue-600 text-white flex justify-center items-center">
+              <span>AS</span>
+            </div>
             <span className="flex absolute h-3 w-3 bottom-0 right-0 -mt-1 -mr-1">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
