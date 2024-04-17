@@ -60,18 +60,18 @@ const AppWidget = ({ t, title, routeLink, routeText, icon, noOfApps }) => {
               }}
               labels={{
                 valueLabel: {
-                  formatTextValue: (value) => value,
+                  formatTextValue: (value) => value + "+",
                   style: {
+                    fontSize: "55px",
                     fill: "#3a1aed",
                     textShadow: "none",
                     fontWeight: "600",
-                    fontSize: "40px",
                   },
                 },
                 tickLabels: {
                   type: "outer",
                   valueConfig: {
-                    formatTextValue: (value) => value + "ºC",
+                    formatTextValue: (value) => value + "+",
                     fontSize: 10,
                   },
                 },
