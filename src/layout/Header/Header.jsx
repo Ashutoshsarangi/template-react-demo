@@ -43,7 +43,7 @@ const Header = (props) => {
               <span className="dot absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition"></span>
             </span>
           </label>
-          <div className="space-x-2">
+          {/* <div className="space-x-2">
             <span
               className="text-4xl"
               data-value="en"
@@ -58,7 +58,7 @@ const Header = (props) => {
             >
               🇬🇷
             </span>
-          </div>
+          </div> */}
           <span className="flex items-center relative">
             <div className="h-[50px] w-[50px] rounded-full shadow bg-blue-600 text-white flex justify-center items-center">
               <span>AS</span>
